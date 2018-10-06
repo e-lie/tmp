@@ -1,17 +1,16 @@
-title: Introduction à Linux
-class: animation-fade
-layout: true
-
 ---
-
-class: impact
+title: Introduction à Linux
+theme: moon
+separator: "\n>>>\n"
+verticalSeparator: "\n---\n"
+revealOptions:
+    transition: 'none'
+---
 
 # Introduction à Linux
 *Become a Command Line Padawan in five days!*
 
 ---
-
-class: impact
 
 # Hello, world!
 
@@ -19,45 +18,14 @@ class: impact
 
 # À propos de moi
 
-.col-4[
-.center[
 ![](img/me.jpg)
-]
-]
+`https://github.com/e-lie`
 
-.col-8[.center[
-<br>
-<br>
-`https://github.com/alexAubin`
-<br>
-<br>
-`alex.aubin@mailoo.org`
-<br>
-<br>
-]]
-
-
-
-
-.col-4[.center[
-Ingénieur/Physicien
-</br>
-</br>
+Développeur / doctorant en philosophie
 ![](img/particles.jpg)
-]]
 
-.col-4[.center[
-Dev / hacktiviste?
-
-![](img/hackstub.jpg)
-![](img/yunohost.jpg)
-]]
-
-.col-4[.center[
 Formateur
-
 ![](img/python_arduino_linux.png)
-]]
 
 ---
 
@@ -104,8 +72,8 @@ Formateur
 
 On est là pour apprendre :
 
-- Trompez-vous ! 
-- Essayez des choses ! 
+- Trompez-vous !
+- Essayez des choses !
 - Cassez des trucs !
 
 ---
@@ -115,11 +83,10 @@ On est là pour apprendre :
 - Approche technicienne
 - Debian Stretch, sans interface graphique
 
----
 
-class: impact
+>>>
 
-# 0. Les origines de (GNU/)Linux 
+# 0. Les origines de (GNU/)Linux
 
 ## (ou plus largement de l'informatique contemporaine)
 
@@ -133,9 +100,9 @@ class: impact
 - ~1950 : Transistors
 - ~1960 : Circuits intégrés
 
-.center[
+
 ...Expansion de l'informatique...
-]
+
 
 ---
 
@@ -143,9 +110,9 @@ class: impact
 
 ## 1970 : PDP-7
 
-.center[
+
 ![](img/pdp7.jpg)
-]
+
 
 ---
 
@@ -153,16 +120,16 @@ class: impact
 
 ## 1970 : UNIX
 
-- Définition d'un 'standard' pour les OS 
+- Définition d'un 'standard' pour les OS
 - Un multi-utilisateur, multi-tâche
 - Design modulaire, simple, élégant, efficace
 - Adopté par les universités américaines
 - Ouvert (évidemment)
 - (Écrit en assembleur)
 
-.center[
+
 ![](img/ritchie_thompson_kernighan.png)
-]
+
 
 ---
 
@@ -170,9 +137,9 @@ class: impact
 
 ## 1970 : UNIX
 
-.center[
+
 ![](img/unixtree.png)
-]
+
 
 ---
 
@@ -184,9 +151,9 @@ class: impact
 - Le C rends portable les programmes ;
 - Ils réécrivent une version d'UNIX en C, ce qui rends UNIX portable ;
 
-.center[
+
 ![](img/ritchie_thompson.jpg)
-]
+
 
 
 ---
@@ -206,9 +173,9 @@ class: impact
 
 ## 1970~1985 : Les débuts d'Internet
 
-.center[
+
 ![](img/arpanet.png)
-]
+
 
 
 ---
@@ -252,10 +219,10 @@ class: impact
     3. Liberte de redistribuer les modificiations
 - ... et le projet GNU : un ensemble de programmes libres
 
-.center[
+
 ![](img/stallman.jpg)
 ![](img/gnu.png)
-]
+
 
 ---
 
@@ -265,10 +232,10 @@ class: impact
 
 - Linus Torvalds écrit Linux dans son garage
 
-.center[
+
 ![](img/torvalds.jpg)
 ![](img/tux.png)
-]
+
 
 ---
 
@@ -303,9 +270,9 @@ class: impact
 
 # 0. Les origines de Linux
 
-.center[
+
 ... L'informatique et Internet se démocratisent ...
-]
+
 
 En très résumé :
 - Linux remporte le marché de l'infrastructure (routeur, serveurs, ..)
@@ -318,14 +285,14 @@ En très résumé :
 
 ## L'informatique contemporaine
 
-.center[
-![](img/datacenter.jpg)
-]
 
-.center[
+![](img/datacenter.jpg)
+
+
+
 ![](img/laptop.jpg)
 ![](img/smartphone.jpg)
-]
+
 
 ---
 
@@ -397,9 +364,9 @@ Et bien d'autres : Gentoo, LinuxFromScratch, Fedora, OpenSuse, Slackware, Alpine
 
 ## Linux, les environnements (Gnome)
 
-.center[
+
 ![](img/gnome.jpg)
-]
+
 
 ---
 
@@ -407,9 +374,9 @@ Et bien d'autres : Gentoo, LinuxFromScratch, Fedora, OpenSuse, Slackware, Alpine
 
 ## Linux, les environnements (KDE)
 
-.center[
+
 ![](img/kde.jpg)
-]
+
 
 ---
 
@@ -417,9 +384,9 @@ Et bien d'autres : Gentoo, LinuxFromScratch, Fedora, OpenSuse, Slackware, Alpine
 
 ## Linux, les environnements (Cinnamon)
 
-.center[
+
 ![](img/cinnamon.jpg)
-]
+
 
 ---
 
@@ -427,9 +394,9 @@ Et bien d'autres : Gentoo, LinuxFromScratch, Fedora, OpenSuse, Slackware, Alpine
 
 ## Linux, les environnements (XFCE)
 
-.center[
+
 ![](img/xfce.jpg)
-]
+
 
 ---
 
@@ -437,25 +404,25 @@ Et bien d'autres : Gentoo, LinuxFromScratch, Fedora, OpenSuse, Slackware, Alpine
 
 ## Linux, les environnements (Awesome)
 
-.center[
+
 ![](img/awesome.jpg)
-]
 
----
 
-class: impact
+>>>
+
+
 
 # 1. Rappels sur l'informatique
 
 ---
 
-class: impact
+
 
 # « Informatique »
 
 ---
 
-class: impact
+
 
 # L'ordinateur comme outil universel
 
@@ -467,9 +434,9 @@ Votre laptop doit être pour vous ce que le sabre laser est au Jedi
 
 ## Architecture d'un ordinateur
 
-.center[
+
 ![](img/computer.png)
-]
+
 
 ---
 
@@ -497,9 +464,9 @@ L'OS :
 - Décentralisé / distribué / "organique"
 - Intelligence à l'extérieur
 
-.center[
+
 ![](img/internet.jpg)
-]
+
 
 ---
 
@@ -535,9 +502,9 @@ Autres protocoles : DNS, SSH, IRC, torrent, ...
 
 Modele client / serveur
 
----
+>>>
 
-class: impact
+
 
 # 2. Prendre en main sa machine et le terminal
 
@@ -591,7 +558,7 @@ Password: █        # <<<< le mot de passe ne s'affiche pas du tout quand on le
 Debian Stretch <nom_de_machine> tty0
 
 <nom_de_machine> login: votre_login
-Password: 
+Password:
 Last login: Wed 19 Sep 16:23:42 on tty2
 votre_login@machine:~$ █
 ```
@@ -602,7 +569,7 @@ votre_login@machine:~$ █
 
 ## Premières commandes
 
-Changez votre mot de passe : 
+Changez votre mot de passe :
 - Taper `passwd` puis *Entrée* puis suivez les instructions
 
 ```
@@ -617,9 +584,9 @@ votre_login@machine:~$ █
 
 ---
 
-.center[
+
 ![](img/password-mistakes.png)
-]
+
 
 ---
 
@@ -648,9 +615,9 @@ votre_login@machine:~$ █
 - Certaines affichent des choses, d'autres changent des états
 - Vous pouvez ouvrir d'autres TTy / consoles avec Ctrl+Alt+F1, F2, F3, ..
 
----
+>>>
 
-class: impact
+
 
 # 3. La ligne de commande
 
@@ -799,39 +766,39 @@ alex@shadow:~$
 
 ---
 
-class: impact
+
 
 ### Utilisez [Tab] !
 
 ---
 
-class: impact
+
 
 ## Utilisez [Tab] !
 
 ---
 
-class: impact
+
 
 # Utilisez [Tab] !
 
 ---
 
-class: impact
+
 
 # Utilisez [Tab] !
 
 ---
 
-class: impact
+
 
 # Utilisez [Tab] !
 
----
+>>>
 
-class: impact
 
-# 4. Le système de fichier 
+
+# 4. Le système de fichier
 
 ---
 
@@ -876,8 +843,8 @@ class: impact
 "Tout est fichier"
 
 - **fichiers ordinaires** (`-`) : données, configuration, ...
-- **répertoire** (directory, `d`) : gérer l'aborescence, ... 
-- **spéciaux** : 
+- **répertoire** (directory, `d`) : gérer l'aborescence, ...
+- **spéciaux** :
     - devices (`c`, `b`) (clavier, souris, disque, ...)
     - sockets (`s`), named pipe (`p`) (communication entre programmes)
     - links (`l`) ('alias' de fichiers, ~comme les raccourcis sous Windows)
@@ -940,7 +907,7 @@ coursLinux/
 - `/` : racine de toute la hierarchie
 - `/bin/`, `/sbin/` : programmes essentiels (e.g. `ls`)
 - `/boot/` : noyau et fichiers pour amorcer le système
-- `/dev/`, `/sys` : périphériques, drivers 
+- `/dev/`, `/sys` : périphériques, drivers
 - `/etc/` : fichiers de configuration
 - `/home/` : répertoires personnels des utilisateurs
 - `/lib/` : librairies essentielles
@@ -956,9 +923,9 @@ coursLinux/
 
 ## Filesystem Hierarchy Standard
 
-.center[
+
 ![](img/filetree.png)
-]
+
 
 ---
 
@@ -1036,7 +1003,7 @@ less /usr/share/doc/nano/nano.html       # Regarder interactivement le fichier
 - `nano <fichier>` : éditer un fichier dans la console
     - [Ctrl]+X pour enregistrer+quitter
     - [Ctrl]+W pour chercher
-    - [Alt]+Y pour activer la coloration syntaxique 
+    - [Alt]+Y pour activer la coloration syntaxique
 
 (`nano` créera le fichier si besoin)
 
@@ -1104,9 +1071,9 @@ mv dev.bkp2 ~/trash/   # Déplace dev.bkp2 dans le dossier ~/trash/
 rm -r ~/trash          # Supprime tout le dossier ~/trash et son contenu
 ```
 
----
+>>>
 
-class: impact
+
 
 # 5. Utilisateurs et groupes
 
@@ -1249,7 +1216,7 @@ Bref : une empreinte caractérisant une information de manière très précise
 ```bash
 whoami                  # Demander qui on est...!
 groups                  # Demander dans quel group on est
-id                      # Lister des infos sur qui on est (uid, gid, ..) 
+id                      # Lister des infos sur qui on est (uid, gid, ..)
 passwd <user>           # Changer son password (ou celui de quelqu'un si on est root)
 who                     # Lister les utilisateurs connectés
 useradd <user>          # Créé un utilisateur
@@ -1258,9 +1225,9 @@ addgroup <group>        # Ajouter un groupe
 adduser <user> <group>  # Ajouter un utilisateur à un groupe
 ```
 
----
+>>>
 
-class: impact
+
 
 # 6. Permissions
 
@@ -1292,17 +1259,17 @@ $ ls -l coursLinux.html
 
 # 6. Permissions
 
-.center[
+
 ![](img/permissions.jpg)
-]
+
 
 ---
 
 # 6. Permissions
 
-.center[
+
 ![](img/permissions2.png)
-]
+
 
 
 
@@ -1373,17 +1340,17 @@ chmod -R +x ./bin/           # Active le droit d'execution pour tout le monde et
 
 ## Représentation octale
 
-.center[
+
 ![](img/chmod_octal.png)
-]
+
 
 ---
 
 # 6. Permissions
 
-.center[
+
 ![](img/chmod_octal2.png)
-]
+
 
 ---
 
@@ -1408,9 +1375,9 @@ chmod 444 coursLinux.html  # Fixe les permissions à r--r--r--
 
 ## Chown vs. chmod
 
-.center[
+
 ![](img/chown_chmod.png)
-]
+
 
 ---
 
@@ -1434,9 +1401,9 @@ ne signifie pas qu'on a pas les droits de lecture sur le fichier, mais bien que 
 
 
 
----
+>>>
 
-class: impact
+
 
 # 7. Processus
 
@@ -1462,7 +1429,7 @@ class: impact
 
 ## Execution (1/2)
 
-La machine comprends seulement du code machine ("binaire"). 
+La machine comprends seulement du code machine ("binaire").
 
 Un programme est donc soit :
 - compilé (par ex. un programme en C)
@@ -1478,7 +1445,7 @@ Rappel : UNIX est multi-tâche, multi-utilisateur
 
 ## Execution (2/2)
 
-Un processus est lancé soit : 
+Un processus est lancé soit :
 
 - en interactif (depuis un shell / la ligne de commande)
 - de manière automatique (tâche programmées, c.f. `at` et jobs cron)
@@ -1548,7 +1515,7 @@ top               # Liste les processus actif interactivement
 - "Gentillesse" (*niceness*) entre -20 et 19
     - -20 : priorité la plus élevée
     - 19 : priorité la plus basse
-- Seul les process du kernel peuvent être "méchant" 
+- Seul les process du kernel peuvent être "méchant"
     - niceness négative, et donc les + prioritaires
 
 ---
@@ -1610,9 +1577,9 @@ pkill -9 java
 
 # 7. Processus
 
-.center[
+
 ![](img/dontsigkill.png)
-]
+
 
 ---
 
@@ -1628,9 +1595,9 @@ pkill -9 java
 4. La commande lancée continue à s'executer
 5. On peut revenir dans la session plus tard avec `screen -r`
 
----
+>>>
 
-class: impact
+
 
 # 8. Personnaliser son environnement
 
@@ -1661,7 +1628,7 @@ USER, USERNAME : nom d'utilisateur
 Exemple :
 
 ```
-HOME=/tmp/ 
+HOME=/tmp/
 ```
 
 
@@ -1743,5 +1710,3 @@ On peut connaître les alias existants avec juste `alias`
 - Pour appliquer les modifications, il faut faire `source ~/.bashrc`
 
 Autres fichiers de profils : `~/.profile` et `/etc/bash_profile`
-
-

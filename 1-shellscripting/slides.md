@@ -4,7 +4,7 @@ layout: true
 
 ---
 
-class: impact
+
 
 # Bash Scripting
 
@@ -29,7 +29,7 @@ class: impact
 
 ---
 
-class: impact
+
 
 # 9. Commandes avancées
 
@@ -46,9 +46,9 @@ class: impact
    - 0 : tout s'est bien passé
    - 1 (ou toute valeur différente de 0) : problème !
 
-.center[
+
 ![](img/commandbox.png)
-]
+
 
 ---
 
@@ -56,9 +56,9 @@ class: impact
 
 ## Entrées / sorties
 
-.center[
+
 ![](img/commandbox.png)
-]
+
 
 - **arguments** : donnés lors du lancement de la commande (ex: `/usr/` dans `ls /usr/`)
 - **stdin** : flux d'entrée (typ. viens du clavier)
@@ -124,9 +124,9 @@ Fichiers speciaux :
 - `/dev/null` : puit sans fond (trou noir)
 - `/dev/urandom` : generateur aleatoire (trou blanc)
 
-.center[
+
 ![](img/bottomlesspit.png)
-]
+
 
 ---
 
@@ -164,7 +164,7 @@ que fait `cmd1 && cmd2 || cmd3`
 
 ---
 
-class: impact
+
 
 # 9. Commandes avancées
 
@@ -180,9 +180,9 @@ class: impact
 
 Exemple : `cat /etc/login.defs | head -n 3`
 
-.center[
+
 ![](img/pipe.png)
-]
+
 
 - (Attention, par défaut `stderr` n'est pas affecté par les pipes !)
 
@@ -370,13 +370,13 @@ ls -l | sed 's/alex/padawan/g' # Remplace toutes les occurences de alex par pada
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
@@ -541,7 +541,7 @@ Ensuite, vous pourrez utiliser depuis n'importe où les programmes dans `~/my_pr
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
@@ -715,7 +715,7 @@ Mon home est $HOME
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
@@ -777,7 +777,7 @@ echo "OK, bonjour $NAME !"
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
@@ -961,7 +961,7 @@ C'est souvent moins lourd à écrire pour des petites choses :
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
@@ -1088,7 +1088,7 @@ echo $LIMIT   ## << Ne fonctionnera pas !
 
 ---
 
-class: impact
+
 
 # 10. Bash scripts
 
